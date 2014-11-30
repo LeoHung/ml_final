@@ -80,8 +80,10 @@ function runClassifier(dataset, opt)
     fprintf('Test Accuracy = %.2f%%\n', 100*mean(preds(:) == y_test(:)));
     
     % write the data out to a file that can be read by Kaggle.
-    writeLabels('my_labels.csv', preds);
-    
+    filename = sprintf('%s_c_%.4f_g_%.4f.', opt.loss, opt.lambda, opt.gamma);
+%     writeLabels('my_labels.csv', preds);
+    writeLabels(filename, preds);
+
     % plot the decision boundary or return if not plottable.
     if n ~= 2 || ~isfield(opt, 'display') || ~opt.display, return; end;
     
