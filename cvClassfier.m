@@ -77,18 +77,13 @@ function acc =  cvClassfier( dataset, opt )
         cv_X_test = X_train(test_list, :);
         cv_y_test = y_train(test_list, :);
         
-        disp(size(cv_X_train));
-        disp(size(cv_X_test));
-        
         params = trainClassifier(cv_X_train(1:end,:), cv_y_train(1:end), opt);
         preds = predictClassifier(params, cv_X_test);
         cv_round_accuracys(cv_i, 1) = 100 * mean(preds(:) == cv_y_test(:));
     end
     
-    disp(cv_round_accuracys);
-    fprintf('CV accuracy = %.2f%%\n', mean(cv_round_accuracys));
-    
-    acc = cv_round_accuracys;
+    acc = mean(cv_round_accuracys);
+    fprintf('CV accuracy = %.2f%%\n', acc);
     
 end
 
