@@ -1,5 +1,5 @@
 function [ acc ] = grid( dataset, classifier)
-    c_range = power(10, -2:1:1);
+    c_range = power(10, -3:1:0);
     g_range = power(10, 0:-1:-4);
     
     c_N = size(c_range, 2);
