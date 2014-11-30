@@ -80,7 +80,7 @@ function runClassifier(dataset, opt)
     fprintf('Test Accuracy = %.2f%%\n', 100*mean(preds(:) == y_test(:)));
     
     % write the data out to a file that can be read by Kaggle.
-    filename = sprintf('%s_c_%.4f_g_%.4f.', opt.loss, opt.lambda, opt.gamma);
+    filename = sprintf('%s_c_%.4f_g_%.4f.csv', opt.loss, opt.lambda, opt.gamma);
 %     writeLabels('my_labels.csv', preds);
     writeLabels(filename, preds);
 
