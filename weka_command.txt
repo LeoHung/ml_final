@@ -1,0 +1,5 @@
+Weka parameters for NN and RandomForest
+
+weka.classifiers.functions.NeuralNetwork -lr 0.0 -wp 0.001 -mi 1200 -bs 0 -th 0 -hl 400,40 -di 0.15 -dh 0.3 -iw 0
+
+weka.classifiers.trees.RandomForest -I 50 -K 0 -S 1 -depth 80 -O -num-slots 1
