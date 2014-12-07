@@ -1,5 +1,5 @@
 function [ acc ] = grid( dataset, classifier, isKernel)
-    c_range = power(10, 0:1:3);
+    c_range = power(10, -2:1:3);
     g_range = power(10, 0:-1:-4);
     
     if isKernel
@@ -38,7 +38,7 @@ function grid_kernel(c_range, g_range, dataset, classifier)
     
     for c_i = 1:c_N
         c = c_range(c_i);
-        parfor g_i = 1:g_N
+        for g_i = 1:g_N
             g = g_range(g_i);
             
             performance(c_i, g_i) = cvClassfier(dataset, struct('lambda', c, 'loss', classifier, 'dual', true, 'kernelfn', 'rbf', 'gamma', g));

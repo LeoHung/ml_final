@@ -2,7 +2,9 @@ function visual_word_dict( dataset, k, w_size ,output )
 %VISUAL_WORD Summary of this function goes here
 %   Detailed explanation goes here
     load(dataset);
-    X = [X_train; X_test];
+%     X = [X_train; X_test];
+    X = [X_train];
+    
     N = size(X, 1);
     img_width = 256;
     sample_factor = 100;
