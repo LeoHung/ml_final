@@ -1,0 +1,37 @@
+\begin{thebibliography}{1}
+
+\bibitem{Breiman:2001fb}
+L.~Breiman.
+\newblock {Random Forests.}
+\newblock {\em Machine Learning ()}, 45(1):5--32, 2001.
+
+\bibitem{HechtNielsen:1989et}
+R.~Hecht-Nielsen.
+\newblock {Theory of the backpropagation neural network}.
+\newblock In {\em Neural Networks, 1989. IJCNN., International Joint Conference
+  on}, pages 593--605, 1989.
+
+\bibitem{Hosmer:2000vg}
+D.~W. Hosmer and S.~Lemeshow.
+\newblock {Applied logistic regression}.
+\newblock 2000.
+
+\bibitem{Lowe:2004uq}
+D.~G. Lowe.
+\newblock {Distinctive image features from scale-invariant keypoints}.
+\newblock {\em International Journal of Computer Vision}, 60(2):91--110, Nov.
+  2004.
+
+\bibitem{Perner:2001wu}
+P.~Perner.
+\newblock {\em {Machine Learning and Data Mining in Pattern Recognition}}.
+\newblock Second International Workshop, MLDM 2001, Leipzig, Germany, July
+  25-27, 2001. Proceedings. Springer Science {\&} Business Media, July 2001.
+
+\bibitem{Vapnik:2000te}
+V.~Vapnik.
+\newblock {The Nature of Statistical Learning Theory - Vladimir Vapnik - Google
+  Books}.
+\newblock 2000.
+
+\end{thebibliography}

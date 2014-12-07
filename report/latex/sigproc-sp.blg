@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: sigproc-sp.aux
+The style file: abbrv.bst
+Database file #1: sanchuah.bib
+Warning--empty journal in Hosmer:2000vg
+Warning--empty journal in Vapnik:2000te
+You've used 6 entries,
+            2118 wiz_defined-function locations,
+            535 strings with 4541 characters,
+and the built_in function-call counts, 1666 in all, are:
+= -- 168
+> -- 48
+< -- 1
++ -- 20
+- -- 14
+* -- 95
+:= -- 281
+add.period$ -- 19
+call.type$ -- 6
+change.case$ -- 24
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 77
+empty$ -- 148
+format.name$ -- 14
+if$ -- 351
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 7
+newline$ -- 33
+num.names$ -- 12
+pop$ -- 30
+preamble$ -- 1
+purify$ -- 19
+quote$ -- 0
+skip$ -- 55
+stack$ -- 0
+substring$ -- 100
+swap$ -- 14
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 22
+warning$ -- 2
+while$ -- 19
+width$ -- 7
+write$ -- 64
+(There were 2 warnings)
